@@ -36,6 +36,10 @@ We don’t share any personally identifying information publicly or with third-p
 
 Our Github Page  links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
 
+### Contact Information
+
+Contact me in my discord 
+0.rkx#6969 or my [discord server](https://discord.gg/gVFxdXdjnd)
 
 ## License
 You cannot use this bot  for listings in bot lists
