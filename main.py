@@ -72,6 +72,9 @@ async def on_guild_join(guild):
 
     log_channel = client.get_channel(832944803338911765)
     await log_channel.send(embed=embed)
+    await client.change_presence(
+    activity=discord.Game(f" .help in {len(client.guilds)} servers"))
+
 
 
 @client.event
@@ -100,6 +103,8 @@ async def on_guild_remove(guild):
 
     log_channel = client.get_channel(832944803338911765)
     await log_channel.send(embed=embed)
+    await client.change_presence(
+    activity=discord.Game(f" .help in {len(client.guilds)} servers"))
 
 client.run(f"{os.environ['TOKEN']}")
 
