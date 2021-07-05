@@ -34,6 +34,8 @@ By inviting to use this bot You Also Agree to the Terms or Service and Privacy P
 
 We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
 
+We Store Information Relating to which server the bot is added in , who is the owner etc
+
 Our Github Page  links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
 
 ### Contact Information
