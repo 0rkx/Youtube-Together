@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 from discordTogether import DiscordTogether
 
-client = commands.Bot(command_prefix=".")
+client = commands.Bot(command_prefix="yt!")
 togetherControl = DiscordTogether(client)
 client.remove_command('help')
 @client.event
@@ -32,8 +32,8 @@ async def on_command_error(ctx ,error ):
 @client.command()
 async def help(ctx):
     await ctx.send("""
-Use .youtube in your selected voice channel (Only Works on PC for Now)
-Use .invite for the invite link""")
+Use yt!youtube in your selected voice channel (Only Works on PC for Now)
+Use yt!invite for the invite link""")
 
 @client.command()
 async def invite(ctx):
@@ -65,7 +65,6 @@ async def on_guild_join(guild):
     )
     embed.set_thumbnail(url=icon)
     embed.add_field(name="Server Name", value=name, inline=False)
-    embed.add_field(name="Owner", value=owner, inline=True)
     embed.add_field(name="Server ID", value=id, inline=True)
     embed.add_field(name="Region", value=region, inline=True)
     embed.add_field(name="Member Count", value=memberCount, inline=True)
@@ -96,7 +95,6 @@ async def on_guild_remove(guild):
     )
     embed.set_thumbnail(url=icon)
     embed.add_field(name="Server Name", value=name, inline=False)
-    embed.add_field(name="Owner", value=owner, inline=True)
     embed.add_field(name="Server ID", value=id, inline=True)
     embed.add_field(name="Region", value=region, inline=True)
     embed.add_field(name="Member Count", value=memberCount, inline=True)
