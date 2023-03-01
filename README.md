@@ -1,4 +1,4 @@
-
+# DISCONTINUED 
 # Youtube Together
 
 Youtube Together is a discord bot made in python that lets you utilize discords voice activities 
