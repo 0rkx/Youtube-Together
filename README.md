@@ -1,49 +1,48 @@
-# DISCONTINUED 
 # Youtube Together
 
-Youtube Together is a discord bot made in python that lets you utilize discords voice activities 
-This Feature is currently only available to a few handpicked servers and discords api
+A Bot That Allows You To Utilize Discord Voice Activities
 
+## Overview
 
-## Invite
+This README documents the current implementation of `Youtube-Together`. It is based on the checked-in source files, package manifests, and entry points in the repository.
 
-Invite the Bot [Here](https://discord.com/api/oauth2/authorize?client_id=859365742457389106&permissions=2182138176&scope=bot%20applications.commands).
+## What It Covers
 
+- backend API
+- Discord bot automation
 
-## Official Bot Listings
+## Features
 
-[Top.gg](https://top.gg/bot/859365742457389106)    (Not Approved Yet)  
+- Discord bot command handling
 
+## Tech Stack
 
-[Discord Bot List](https://discordbotlist.com/bots/youtube-together-5058)
+- Python
 
-[Discord Extreme List](https://discordextremelist.xyz/en-US/bots/859365742457389106) (Not Approved Yet)
+## Code Highlights
 
-[Discord Bots.gg](https://discord.bots.gg/bots/859365742457389106) (Not Approved Yet)
+- Entry points: main.py
+- Python dependencies are declared in the repository.
 
+## Project Structure
 
+- `main.py`
+- `pyproject.toml`
 
+## Getting Started
 
+Clone the repository and install the dependencies for the part of the project you want to run.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### Python
 
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+python main.py
+```
 
-## Privacy Policy
-By inviting to use this bot You Also Agree to the Terms or Service and Privacy Policy of [Youtube](https://www.youtube.com/howyoutubeworks/policies/community-guidelines/) and Other Companies Affiliated with it
+## Development Notes
 
-We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
-
-We Store Information Relating to which server the bot is added in , who is the owner etc
-
-Our Github Page  links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
-
-### Contact Information
-
-Contact me in my discord 
-0.rkx#6969 or my [discord server](https://discord.gg/gVFxdXdjnd)
-
-## License
-You cannot use this bot  for listings in bot lists
-
-[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+- Keep generated files, dependency folders, virtual environments, and build outputs out of commits.
+- Add screenshots or deployment links here when the project is running in production.
+- Update this README when entry points, environment variables, or setup steps change.
